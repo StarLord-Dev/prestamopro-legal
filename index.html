@@ -3,60 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>PréstamoPro - Gestión de Préstamos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #1e293b;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+        }
+
+        p {
+            color: #475569;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .plans {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .plan {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 
-<h1>PréstamoPro</h1>
-<p>Gestiona tus préstamos, clientes y cobros de forma simple y profesional.</p>
+<div class="container">
 
-<hr>
+    <h1>PréstamoPro</h1>
+    <p>Gestiona tus préstamos, clientes y cobros de forma simple y profesional.</p>
 
-<h2>¿Qué puedes hacer?</h2>
-<ul>
-    <li>Registrar clientes</li>
-    <li>Gestionar préstamos</li>
-    <li>Controlar cuotas y mora</li>
-    <li>Registrar pagos fácilmente</li>
-    <li>Generar reportes</li>
-</ul>
+    <h2>¿Qué puedes hacer?</h2>
+    <div class="card">
+        <ul>
+            <li>Registrar clientes</li>
+            <li>Gestionar préstamos</li>
+            <li>Controlar cuotas y mora</li>
+            <li>Registrar pagos fácilmente</li>
+            <li>Generar reportes</li>
+        </ul>
+    </div>
 
-<hr>
+    <h2>Beneficios</h2>
+    <div class="card">
+        <ul>
+            <li>Control total de tu dinero</li>
+            <li>Menos errores manuales</li>
+            <li>Seguimiento claro de deudas</li>
+            <li>Optimizado para uso diario</li>
+        </ul>
+    </div>
 
-<h2>Beneficios</h2>
-<ul>
-    <li>Control total de tu dinero</li>
-    <li>Menos errores manuales</li>
-    <li>Seguimiento claro de deudas</li>
-    <li>Optimizado para uso diario</li>
-</ul>
+    <h2>Planes</h2>
+    <div class="plans">
 
-<hr>
+        <div class="card plan">
+            <h3>Básico</h3>
+            <div class="price">$5/mes</div>
+            <p>Ideal para comenzar</p>
+        </div>
 
-<h2>Planes</h2>
+        <div class="card plan">
+            <h3>Profesional</h3>
+            <div class="price">$10/mes</div>
+            <p>Funciones completas para gestión avanzada</p>
+        </div>
 
-<h3>Básico</h3>
-<p>$5/mes</p>
-<p>Ideal para comenzar</p>
+    </div>
 
-<h3>Profesional</h3>
-<p>$10/mes</p>
-<p>Funciones completas para gestión avanzada</p>
+    <h2>Comienza ahora</h2>
+    <p>Accede a todas las herramientas para gestionar tu negocio de préstamos.</p>
 
-<hr>
+    <a href="#" class="btn">Suscribirme</a>
 
-<h2>Comienza ahora</h2>
-<p>Accede a todas las herramientas para gestionar tu negocio de préstamos.</p>
+    <footer>
+        <p>
+            <a href="terms.html">Términos</a> |
+            <a href="privacy.html">Privacidad</a> |
+            <a href="refund.html">Reembolsos</a>
+        </p>
+    </footer>
 
-<!-- AQUÍ VA TU LINK DE LEMON SQUEEZY -->
-<a href="#">Suscribirme</a>
-
-<hr>
-
-<p>
-    <a href="terms.html">Términos</a> |
-    <a href="privacy.html">Privacidad</a> |
-    <a href="refund.html">Reembolsos</a>
-</p>
+</div>
 
 </body>
 </html>
